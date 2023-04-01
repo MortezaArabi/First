@@ -5,5 +5,6 @@ git config --list
 git init # Initialized file in a folder as project: Initialized empty Git repository in G:/python projects/projects/mygit/.git/
 git add a.txt  # files go to storage step
 git status
-git commit -m "add a file a.txt"
+git commit -m "add a file a.txt"  # files go to repository step
 git status
+git add .
