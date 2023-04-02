@@ -20,4 +20,4 @@ git branch -d users-login # delete users-login branch after merge
 git branch -D users-login # delete users-login branch did not merge
 git checkout  قبل از تغییر شاخه حتما باید تغییرات در شاخه خود commit  شود
 در غیر این صورت با تغییر شاخه در شاخه جدید ثبت می شوند
-git push https://github.com/MortezaArabi/First.git main
+git push https://github.com/MortezaArabi/First.git master
