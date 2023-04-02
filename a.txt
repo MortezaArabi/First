@@ -1,10 +1,23 @@
 git --version
 git config --global user.name "morteza1316"
 git config --global user.email "morteza1316@gmail.com"
-git config --list
+git config --list # enter q key to exit
 git init # Initialized file in a folder as project: Initialized empty Git repository in G:/python projects/projects/mygit/.git/
 git add a.txt  # files go to storage step
 git status
 git commit -m "add a file a.txt"  # files go to repository step
 git status
 git add .
+git log
+git log --stat
+git log --online # head git is  a.txt (latest change commit)
+git branch or git branch --list
+git branch user-login  # mack a new branch with user-login name
+git checkout user-login # change branch to new (user-login branch)
+git merge user-login # user-login add to master branch
+git branch -m user-login users-login  # change name of branch: user-login => users-login
+git branch -d users-login # delete users-login branch after merge
+git branch -D users-login # delete users-login branch did not merge
+git checkout  قبل از تغییر شاخه حتما باید تغییرات در شاخه خود commit  شود
+در غیر این صورت با تغییر شاخه در شاخه جدید ثبت می شوند
+git push https://github.com/MortezaArabi/First.git main
